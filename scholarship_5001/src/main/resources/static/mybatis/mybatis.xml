@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--    下划线转驼峰-->
+        <settings>
+            <setting name="mapUnderscoreToCamelCase" value="true"/>
+        </settings>
+
+    <!--    分页-->
+        <plugins>
+            <plugin interceptor="com.github.pagehelper.PageInterceptor">
+            </plugin>
+        </plugins>
+
+    <!--    整合细节
+    1.  要在启动类上添加 @MapperScan("com.springbootdemo02.mvc.mapper") 开启扫描
+
+    2.  sql语句表名不能加“ ”
+
+    3. 版本要求不能太高
+
+    4. @Mapper
+        @Repository 消除警告
+
+
+    -->
+</configuration>
