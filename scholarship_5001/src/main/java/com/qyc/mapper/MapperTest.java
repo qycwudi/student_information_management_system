@@ -2,6 +2,7 @@ package com.qyc.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.bean.StudentMessage;
+import com.qyc.entity.StudentMessageVO;
 import org.apache.ibatis.annotations.Mapper;
 
 /**

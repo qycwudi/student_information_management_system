@@ -15,10 +15,12 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 public class ControllerTest {
     @Autowired
-    private ServiceTestImpl serviceTest;
+    private ServiceTestImpl serviceTestImpl;
     @PostMapping("/insert")
     public R insert(StudentMessageVO s){
-        serviceTest.insert(s);
+        StudentMessage studentMessage = new StudentMessage();
+        studentMessage.setStuName(s.getStuName());
+        serviceTestImpl.insert(studentMessage);
         R r = R.ok();
         r.data("stu",s);
         return r;
@@ -26,7 +28,7 @@ public class ControllerTest {
 
     @GetMapping("/show")
     public R show(){
-        StudentMessageVO  studentMessageVO = serviceTest.show();
+        StudentMessageVO  studentMessageVO = serviceTestImpl.show();
         return R.ok().data("stu",studentMessageVO);
     }
 }

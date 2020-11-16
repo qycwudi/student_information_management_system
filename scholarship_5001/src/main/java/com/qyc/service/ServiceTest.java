@@ -1,5 +1,6 @@
 package com.qyc.service;
 
+import com.bean.StudentMessage;
 import com.qyc.entity.StudentMessageVO;
 
 /**
@@ -7,6 +8,6 @@ import com.qyc.entity.StudentMessageVO;
  * @time 2020/11/15 - 13:32
  */
 public interface ServiceTest {
-    public void insert(StudentMessageVO studentMessageVO);
+    public void insert(StudentMessage studentMessage);
     public StudentMessageVO show();
 }

@@ -28,7 +28,7 @@ public class ClassInfo implements Serializable {
     private static final long serialVersionUID = 1L;
     @JsonSerialize(using = ToStringSerializer.class)
     @TableId(value = "id", type = IdType.ID_WORKER)
-    private long id;
+    private Long id;
 
     private String className;
 

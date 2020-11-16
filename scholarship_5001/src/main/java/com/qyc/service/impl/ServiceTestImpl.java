@@ -18,14 +18,14 @@ import org.springframework.stereotype.Service;
 @Service
 public class ServiceTestImpl extends ServiceImpl<MapperTest, StudentMessage> implements ServiceTest {
     @Override
-    public void insert(StudentMessageVO studentMessageVO) {
-        StudentMessage studentMessage = new StudentMessage();
+    public void insert(StudentMessage studentMessage) {
+//        StudentMessage studentMessage = new StudentMessage();
 //        BeanUtil.copyProperties(studentMessageVO,studentMessage);
 //        System.out.println(studentMessage);
-        studentMessage.setStuName(studentMessageVO.getStuName());
-        studentMessage.setStuSex(studentMessageVO.getStuSex());
-        studentMessage.setStuPhoneNumber(studentMessageVO.getStuPhoneNumber());
-        System.out.println(studentMessage);
+//        studentMessage.setStuName(studentMessageVO.getStuName());
+//        studentMessage.setStuSex(studentMessageVO.getStuSex());
+//        studentMessage.setStuPhoneNumber(studentMessageVO.getStuPhoneNumber());
+//        System.out.println(studentMessage);
         baseMapper.insert(studentMessage);
     }
 

@@ -29,7 +29,7 @@ public class ScholarshipInfo implements Serializable {
 
     @JsonSerialize(using = ToStringSerializer.class)
     @TableId(value = "id", type = IdType.ID_WORKER)
-    private long id;
+    private Long id;
 
     private String schTypeId;
 

@@ -1,0 +1,11 @@
+server:
+  port: 5010
+spring:
+  datasource:
+    username: root
+    password: qycssg!0
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://101.200.201.196:3306/db_stu_sys?serverTimezone=GMT%2B8&useSSL=false
+
+mybatis-plus:
+  mapper-locations: classpath:static/mybatis/mapper/*.xml

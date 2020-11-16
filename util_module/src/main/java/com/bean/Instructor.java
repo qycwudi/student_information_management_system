@@ -29,7 +29,7 @@ public class Instructor implements Serializable {
 
     @JsonSerialize(using = ToStringSerializer.class)
     @TableId(value = "id", type = IdType.ID_WORKER)
-    private long id;
+    private Long id;
 
     private String insName;
 
@@ -49,6 +49,7 @@ public class Instructor implements Serializable {
 
 
     private String insPassword;
-
-
+    private String account;
+    private String role;
+    private String ImgUrl;
 }
