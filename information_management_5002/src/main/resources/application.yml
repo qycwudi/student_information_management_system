@@ -1,0 +1,37 @@
+server:
+  port: 5002
+spring:
+  application:
+    name: sys-5002
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/db_stu_sys?serverTimezone=GMT%2B8&useSSL=false
+    username: root
+    password: 123456
+    hikari:
+      max-lifetime: 500000
+      maximum-pool-size: 100
+  aop:
+    proxy-target-class: true
+  redis: 
+    host: 101.200.201.196
+    port: 6379
+    password: 123456
+
+
+#mybatis:
+#  config-location: classpath:static/mybatis/mybatis.xml
+#  mapper-locations: classpath:static/mybatis/mapper/*.xml
+mybatis-plus:
+  mapper-locations: classpath:static/mybatis/mapper/*.xml
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

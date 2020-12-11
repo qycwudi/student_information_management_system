@@ -42,8 +42,8 @@ public class StudentMessage implements Serializable {
     private String stuGrade;
 
     private String stuMajor;
-
-    private String stuClassId;
+    @JsonSerialize(using = ToStringSerializer.class)
+    private Long stuClassId;
 
     private String stuPoliticsStatus;
 
@@ -54,8 +54,8 @@ public class StudentMessage implements Serializable {
     private String stuDuty;
 
     private String stuPhoneNumber;
-
-    private String stuInsId;
+    @JsonSerialize(using = ToStringSerializer.class)
+    private Long stuInsId;
 
     private String stuStateId;
 
@@ -76,6 +76,7 @@ public class StudentMessage implements Serializable {
     private Integer deleted;
 
     private String role;
+
 
 
 }

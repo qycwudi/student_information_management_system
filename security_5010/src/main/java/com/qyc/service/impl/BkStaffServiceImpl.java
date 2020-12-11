@@ -42,7 +42,12 @@ public class BkStaffServiceImpl extends ServiceImpl<PasswordMapper, BkStaff> imp
                 HashMap<String, Object> hashMap = new HashMap<>();
                 hashMap.put("id", userVo.getID());
                 hashMap.put("username", userVo.getAccount());
-                hashMap.put("avatar", userVo.getImgUrl());
+                if(userVo.getImgUrl()==null||userVo.getImgUrl().equals("")){
+                    hashMap.put("avatar", "");
+                }else {
+                    hashMap.put("avatar", userVo.getImgUrl());
+                }
+
                 hashMap.put("password", userVo.getPassword());
                 if(userVo.getRole().equals("1")){
                     hashMap.put("roles", "admin");
@@ -50,9 +55,12 @@ public class BkStaffServiceImpl extends ServiceImpl<PasswordMapper, BkStaff> imp
                     hashMap.put("roles", "instr");
                 }else if(userVo.getRole().equals("3")){
                     hashMap.put("roles", "stude");
-                }else {
-                    hashMap.put("roles", "stude");
+                }else if(userVo.getRole().equals("4")){
+                    hashMap.put("roles", "banzhang");
+                }else if(userVo.getRole().equals("0")){
+                    hashMap.put("roles","coll");
                 }
+                System.out.println("hashMap = " + hashMap.toString());
                 String token = jwtUtil.createToken(hashMap);
                 return token;
             } else {
@@ -68,7 +76,7 @@ public class BkStaffServiceImpl extends ServiceImpl<PasswordMapper, BkStaff> imp
         if(account.length()==6){
             passwd = baseMapper.getcoll(account);
         }
-        else if(account.length()==8){
+        else if(account.length()==11){
             passwd = baseMapper.getins(account);
         }
         else if(account.length()==10){
@@ -89,7 +97,7 @@ public class BkStaffServiceImpl extends ServiceImpl<PasswordMapper, BkStaff> imp
             userVo.setRole(coll.getRole());
             userVo.setImgUrl("");
         }
-        else if(account.length()==8){
+        else if(account.length()==11){
             Instructor ins = baseMapper.getIns(account);
             userVo.setID(ins.getId());
             userVo.setAccount(ins.getAccount());

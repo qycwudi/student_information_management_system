@@ -2,83 +2,92 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5620f43-1c57-48f2-b428-ad2dfb0be1c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scholarship_5001/src/main/java/com/qyc/cfg/IDAuto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security_5010/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security_5010/src/main/java/com/qyc/MainQx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security_5010/src/main/java/com/qyc/bean/BkStaff.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security_5010/src/main/java/com/qyc/bean/Testjiami.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security_5010/src/main/java/com/qyc/bean/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security_5010/src/main/java/com/qyc/bean/UserVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security_5010/src/main/java/com/qyc/cfg/BCryptPasswordEncoderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security_5010/src/main/java/com/qyc/cfg/JWTUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security_5010/src/main/java/com/qyc/cfg/PageCfg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security_5010/src/main/java/com/qyc/controller/BkStaffController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security_5010/src/main/java/com/qyc/mapper/BkStaffMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security_5010/src/main/java/com/qyc/mapper/PasswordMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security_5010/src/main/java/com/qyc/service/BkStaffService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security_5010/src/main/java/com/qyc/service/impl/BkStaffServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security_5010/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security_5010/src/main/resources/static/mybatis/mapper/PasswordMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util_module/src/main/java/com/util/JiaMi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/information_management_5002/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/information_management_5002/src/main/java/com/qyc/Main5002.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/information_management_5002/src/main/java/com/qyc/cfg/BeanCfg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/information_management_5002/src/main/java/com/qyc/cfg/EasyExcels.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/information_management_5002/src/main/java/com/qyc/cfg/FeignSupportConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/information_management_5002/src/main/java/com/qyc/cfg/IDAuto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/information_management_5002/src/main/java/com/qyc/cfg/JackSonCfg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/information_management_5002/src/main/java/com/qyc/cfg/MybatisPlusCfg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/information_management_5002/src/main/java/com/qyc/cfg/PageCfg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/information_management_5002/src/main/java/com/qyc/controller/ClassController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/information_management_5002/src/main/java/com/qyc/controller/ControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/information_management_5002/src/main/java/com/qyc/controller/InfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/information_management_5002/src/main/java/com/qyc/controller/InsMesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/information_management_5002/src/main/java/com/qyc/controller/ScholController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/information_management_5002/src/main/java/com/qyc/controller/StudentAllAddController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/information_management_5002/src/main/java/com/qyc/controller/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/information_management_5002/src/main/java/com/qyc/entity/CascaderChild.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/information_management_5002/src/main/java/com/qyc/entity/CascaderParent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/information_management_5002/src/main/java/com/qyc/entity/ClassInfoVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/information_management_5002/src/main/java/com/qyc/entity/ClassSelectVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/information_management_5002/src/main/java/com/qyc/entity/Info_classVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/information_management_5002/src/main/java/com/qyc/entity/InsInfoVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/information_management_5002/src/main/java/com/qyc/entity/InsVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/information_management_5002/src/main/java/com/qyc/entity/SchExcelVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/information_management_5002/src/main/java/com/qyc/entity/StuExcel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/information_management_5002/src/main/java/com/qyc/entity/StuVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/information_management_5002/src/main/java/com/qyc/entity/StudentMessageVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/information_management_5002/src/main/java/com/qyc/mapper/ClassMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/information_management_5002/src/main/java/com/qyc/mapper/CollMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/information_management_5002/src/main/java/com/qyc/mapper/InsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/information_management_5002/src/main/java/com/qyc/mapper/MapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/information_management_5002/src/main/java/com/qyc/mapper/ScholMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/information_management_5002/src/main/java/com/qyc/mapper/ScholarshipTypeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/information_management_5002/src/main/java/com/qyc/mapper/StudentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/information_management_5002/src/main/java/com/qyc/mapper/StudentMessageStateMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/information_management_5002/src/main/java/com/qyc/mapper/StudentStateMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/information_management_5002/src/main/java/com/qyc/service/ClassService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/information_management_5002/src/main/java/com/qyc/service/CollService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/information_management_5002/src/main/java/com/qyc/service/InsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/information_management_5002/src/main/java/com/qyc/service/OSS5011.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/information_management_5002/src/main/java/com/qyc/service/ScholService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/information_management_5002/src/main/java/com/qyc/service/ServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/information_management_5002/src/main/java/com/qyc/service/StudentMessageStateService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/information_management_5002/src/main/java/com/qyc/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/information_management_5002/src/main/java/com/qyc/service/StudentStateService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/information_management_5002/src/main/java/com/qyc/service/impl/ClassServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/information_management_5002/src/main/java/com/qyc/service/impl/CollServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/information_management_5002/src/main/java/com/qyc/service/impl/InsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/information_management_5002/src/main/java/com/qyc/service/impl/ScholServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/information_management_5002/src/main/java/com/qyc/service/impl/ScholTypeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/information_management_5002/src/main/java/com/qyc/service/impl/ServiceTestImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/information_management_5002/src/main/java/com/qyc/service/impl/StudentMessageStateServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/information_management_5002/src/main/java/com/qyc/service/impl/StudentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/information_management_5002/src/main/java/com/qyc/service/impl/StudentStateServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/information_management_5002/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/information_management_5002/src/main/resources/static/mybatis/mapper/ClassMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/information_management_5002/src/main/resources/static/mybatis/mapper/CollMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/information_management_5002/src/main/resources/static/mybatis/mapper/InsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/information_management_5002/src/main/resources/static/mybatis/mapper/MapperTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/information_management_5002/src/main/resources/static/mybatis/mapper/ScholMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/information_management_5002/src/main/resources/static/mybatis/mapper/ScholarshipTypeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/information_management_5002/src/main/resources/static/mybatis/mapper/StudentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/information_management_5002/src/main/resources/static/mybatis/mapper/StudentMessageStateMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/information_management_5002/src/main/resources/static/mybatis/mapper/StudentStateMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/information_management_5002/src/main/resources/static/mybatis/mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/information_management_5002/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/information_management_5002/src/main/resources/templates/osspage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oss_5011/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oss_5011/src/main/java/com/qyc/OSSMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oss_5011/src/main/java/com/qyc/bean/OSSProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oss_5011/src/main/java/com/qyc/cfg/OSSUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oss_5011/src/main/java/com/qyc/cfg/PageCfg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oss_5011/src/main/java/com/qyc/controller/OSSController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oss_5011/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oss_5011/src/main/resources/templates/osspage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scholarship_5001/src/main/java/com/qyc/cfg/MybatisPlusConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scholarship_5001/src/main/java/com/qyc/controller/ControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/scholarship_5001/src/main/java/com/qyc/controller/ControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scholarship_5001/src/main/java/com/qyc/mapper/MapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/scholarship_5001/src/main/java/com/qyc/mapper/MapperTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scholarship_5001/src/main/java/com/qyc/service/ServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/scholarship_5001/src/main/java/com/qyc/service/ServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scholarship_5001/src/main/java/com/qyc/service/impl/ServiceTestImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/scholarship_5001/src/main/java/com/qyc/service/impl/ServiceTestImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util_module/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/util_module/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security_5010/src/main/java/com/qyc/service/impl/BkStaffServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/security_5010/src/main/java/com/qyc/service/impl/BkStaffServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security_5010/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/security_5010/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/util_module/src/main/java/com/bean/AutoGeneratedCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/util_module/src/main/java/com/bean/AutoGeneratedCode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/util_module/src/main/java/com/bean/ClassInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/util_module/src/main/java/com/bean/ClassInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util_module/src/main/java/com/bean/Instructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/util_module/src/main/java/com/bean/Instructor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/util_module/src/main/java/com/bean/ScholarshipInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/util_module/src/main/java/com/bean/ScholarshipInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/util_module/src/main/java/com/bean/StudentMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/util_module/src/main/java/com/bean/StudentMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util_module/src/main/java/com/cfg/BeanCfg.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util_module/src/main/java/com/cfg/MybatisPlusConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util_module/src/main/java/com/controller/ClassInfoController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util_module/src/main/java/com/controller/InstructorController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util_module/src/main/java/com/controller/ScholarshipInfoController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util_module/src/main/java/com/controller/ScholarshipStateController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util_module/src/main/java/com/controller/ScholarshipTypeController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util_module/src/main/java/com/controller/StudentMessageController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util_module/src/main/java/com/controller/StudentMessageStateController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util_module/src/main/java/com/controller/StudentStateController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util_module/src/main/java/com/mapper/ClassInfoMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util_module/src/main/java/com/mapper/InstructorMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util_module/src/main/java/com/mapper/ScholarshipInfoMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util_module/src/main/java/com/mapper/ScholarshipStateMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util_module/src/main/java/com/mapper/ScholarshipTypeMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util_module/src/main/java/com/mapper/StudentMessageMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util_module/src/main/java/com/mapper/StudentMessageStateMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util_module/src/main/java/com/mapper/StudentStateMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util_module/src/main/java/com/mapper/xml/ClassInfoMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util_module/src/main/java/com/mapper/xml/InstructorMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/security_5010/src/main/java/com/qyc/mapper/xml/BkStaffMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util_module/src/main/java/com/mapper/xml/ScholarshipInfoMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util_module/src/main/java/com/mapper/xml/ScholarshipStateMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util_module/src/main/java/com/mapper/xml/ScholarshipTypeMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util_module/src/main/java/com/mapper/xml/StudentMessageMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util_module/src/main/java/com/mapper/xml/StudentMessageStateMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util_module/src/main/java/com/mapper/xml/StudentStateMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util_module/src/main/java/com/service/ClassInfoService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util_module/src/main/java/com/service/InstructorService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util_module/src/main/java/com/service/ScholarshipInfoService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util_module/src/main/java/com/service/ScholarshipStateService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util_module/src/main/java/com/service/ScholarshipTypeService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util_module/src/main/java/com/service/StudentMessageService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util_module/src/main/java/com/service/StudentMessageStateService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util_module/src/main/java/com/service/StudentStateService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util_module/src/main/java/com/service/impl/ClassInfoServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util_module/src/main/java/com/service/impl/InstructorServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util_module/src/main/java/com/service/impl/ScholarshipInfoServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util_module/src/main/java/com/service/impl/ScholarshipStateServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util_module/src/main/java/com/service/impl/ScholarshipTypeServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util_module/src/main/java/com/service/impl/StudentMessageServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util_module/src/main/java/com/service/impl/StudentMessageStateServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util_module/src/main/java/com/service/impl/StudentStateServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/util_module/src/main/java/com/bean/state/StudentMessageState.java" beforeDir="false" afterPath="$PROJECT_DIR$/util_module/src/main/java/com/bean/state/StudentMessageState.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,8 +97,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Interface" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -124,27 +133,29 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../IDEA课件/nuxt_Element/vue_stu_sys" />
+    <property name="last_opened_file_path" value="F:/2/课程照片/xiongxyang-novel-plus-release_v3.0/novel-plus" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="G:\IDEA source\student_information_management_system" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\IDEA source\student_information_management_system\information_management_5002\src\main\resources" />
+      <recent name="G:\IDEA source\student_information_management_system\information_management_5002\src\main\resources\static\mybatis\mapper" />
+      <recent name="G:\IDEA source\student_information_management_system\oss_5011\src\main\resources" />
+      <recent name="G:\IDEA source\student_information_management_system\oss_5011\src\main\java" />
+      <recent name="G:\IDEA source\student_information_management_system\information_management_5002\src\main\java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.qyc.mapper" />
       <recent name="com.cfg" />
       <recent name="com.bean" />
       <recent name="com.qyc" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\IDEA source\student_information_management_system\security_5010\src\main\resources\static\mybatis\mapper" />
-      <recent name="G:\IDEA source\student_information_management_system\security_5010\src\main\resources" />
-      <recent name="G:\IDEA source\student_information_management_system\security_5010\src\main\java" />
-      <recent name="G:\IDEA source\student_information_management_system\scholarship_5001\src\main\java\com\qyc\cfg" />
-      <recent name="G:\IDEA source\student_information_management_system\scholarship_5001\src\main\resources\static\mybatis\mapper" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\IDEA source\student_information_management_system" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -154,13 +165,26 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MainQx">
+  <component name="RunManager" selected="Application.AutoGeneratedCode">
     <configuration name="AutoGeneratedCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.bean.AutoGeneratedCode" />
       <module name="util_module" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.bean.type.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IDAuto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qyc.cfg.IDAuto" />
+      <module name="information_management_5002" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qyc.cfg.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -188,6 +212,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main5002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="information_management_5002" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qyc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qyc.Main5002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainQx" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="security_5010" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.qyc.MainQx" />
@@ -195,9 +232,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OSSMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="oss_5011" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qyc.OSSMain" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.AutoGeneratedCode" />
+      <item itemvalue="Application.IDAuto" />
+      <item itemvalue="Application.Testjiami" />
+      <item itemvalue="Spring Boot.Main5001" />
+      <item itemvalue="Spring Boot.MainQx" />
+      <item itemvalue="Spring Boot.OSSMain" />
+      <item itemvalue="Spring Boot.Main5002" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.Main5002" />
         <item itemvalue="Application.AutoGeneratedCode" />
+        <item itemvalue="Application.IDAuto" />
         <item itemvalue="Application.Testjiami" />
       </list>
     </recent_temporary>
@@ -213,12 +268,38 @@
       <option name="presentableId" value="Default" />
       <updated>1605413092345</updated>
       <workItem from="1605413096874" duration="35567000" />
-      <workItem from="1605503977426" duration="1184000" />
+      <workItem from="1605503977426" duration="20164000" />
+      <workItem from="1605573283043" duration="32559000" />
+      <workItem from="1605785555840" duration="2074000" />
+      <workItem from="1605788799316" duration="13917000" />
+      <workItem from="1605838687823" duration="13656000" />
+      <workItem from="1606103261411" duration="16199000" />
+      <workItem from="1606185240193" duration="14378000" />
+      <workItem from="1606275211878" duration="18818000" />
+      <workItem from="1606303858822" duration="9410000" />
+      <workItem from="1606399078279" duration="8351000" />
+      <workItem from="1606488966288" duration="45222000" />
+      <workItem from="1606980296257" duration="43000" />
+      <workItem from="1606981580565" duration="1395000" />
+      <workItem from="1607002486123" duration="1014000" />
+      <workItem from="1607005807701" duration="1405000" />
     </task>
+    <task id="LOCAL-00001" summary="增加5010端口登录+权限">
+      <created>1605509931916</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605509931916</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="增加5010端口登录+权限" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加5010端口登录+权限" />
   </component>
   <component name="WindowStateProjectService">
     <state x="249" y="6" key="#Project_Structure" timestamp="1605433822946">
@@ -229,14 +310,26 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="84" y="190" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.864@0.0.1536.864" timestamp="1605417753446" />
-    <state x="574" y="137" key="#com.intellij.ide.util.MemberChooser" timestamp="1605440410450">
+    <state x="574" y="137" key="#com.intellij.ide.util.MemberChooser" timestamp="1606660780010">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="574" y="137" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1605440410450" />
-    <state x="547" y="172" key="FileChooserDialogImpl" timestamp="1605509041874">
+    <state x="574" y="137" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1606660780010" />
+    <state x="461" y="299" width="614" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1606586701471">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="547" y="172" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1605509041874" />
+    <state x="461" y="299" width="614" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.864@0.0.1536.864" timestamp="1606586701471" />
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1605509925394">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1605509925394" />
+    <state x="547" y="172" key="FileChooserDialogImpl" timestamp="1606980334940">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="547" y="172" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1606980334940" />
+    <state x="592" y="334" key="Github.CreateGistDialog" timestamp="1606550136184">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="592" y="334" key="Github.CreateGistDialog/0.0.1536.864@0.0.1536.864" timestamp="1606550136184" />
     <state x="544" y="329" key="Github.ShareDialog" timestamp="1605426629295">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -245,53 +338,73 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="395" y="129" key="Github.UntrackedFilesDialog/0.0.1536.864@0.0.1536.864" timestamp="1605426682255" />
-    <state width="1263" height="224" key="GridCell.Tab.0.bottom" timestamp="1605460288434">
+    <state width="1492" height="291" key="GridCell.Tab.0.bottom" timestamp="1606666098193">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1263" height="224" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1605460288434" />
-    <state width="1263" height="224" key="GridCell.Tab.0.center" timestamp="1605460288434">
+    <state width="1492" height="291" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1606666098193" />
+    <state width="1492" height="291" key="GridCell.Tab.0.center" timestamp="1606666098193">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1263" height="224" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1605460288434" />
-    <state width="1263" height="224" key="GridCell.Tab.0.left" timestamp="1605460288433">
+    <state width="1492" height="291" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1606666098193" />
+    <state width="1492" height="291" key="GridCell.Tab.0.left" timestamp="1606666098193">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1263" height="224" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1605460288433" />
-    <state width="1263" height="224" key="GridCell.Tab.0.right" timestamp="1605460288434">
+    <state width="1492" height="291" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1606666098193" />
+    <state width="1492" height="291" key="GridCell.Tab.0.right" timestamp="1606666098193">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1263" height="224" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1605460288434" />
-    <state width="1263" height="224" key="GridCell.Tab.1.bottom" timestamp="1605460288436">
+    <state width="1492" height="291" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1606666098193" />
+    <state width="1209" height="223" key="GridCell.Tab.1.bottom" timestamp="1606666098191">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1263" height="224" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1605460288436" />
-    <state width="1263" height="224" key="GridCell.Tab.1.center" timestamp="1605460288435">
+    <state width="1209" height="223" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1606666098191" />
+    <state width="1209" height="223" key="GridCell.Tab.1.center" timestamp="1606666098191">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1263" height="224" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1605460288435" />
-    <state width="1263" height="224" key="GridCell.Tab.1.left" timestamp="1605460288434">
+    <state width="1209" height="223" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1606666098191" />
+    <state width="1209" height="223" key="GridCell.Tab.1.left" timestamp="1606666098191">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1263" height="224" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1605460288434" />
-    <state width="1263" height="224" key="GridCell.Tab.1.right" timestamp="1605460288435">
+    <state width="1209" height="223" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1606666098191" />
+    <state width="1209" height="223" key="GridCell.Tab.1.right" timestamp="1606666098191">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1263" height="224" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1605460288435" />
-    <state x="299" y="87" key="Maven.ArtifactSearchDialog" timestamp="1605434022238">
+    <state width="1209" height="223" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1606666098191" />
+    <state x="299" y="87" key="Maven.ArtifactSearchDialog" timestamp="1606493216138">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="299" y="87" key="Maven.ArtifactSearchDialog/0.0.1536.864@0.0.1536.864" timestamp="1605434022238" />
-    <state x="249" y="6" key="SettingsEditor" timestamp="1605433904425">
+    <state x="299" y="87" key="Maven.ArtifactSearchDialog/0.0.1536.864@0.0.1536.864" timestamp="1606493216138" />
+    <state x="249" y="6" key="SettingsEditor" timestamp="1607007312378">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="249" y="6" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1605433904425" />
+    <state x="249" y="6" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1607007312378" />
+    <state x="366" y="184" key="Vcs.Push.Dialog.v2" timestamp="1605509955282">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="366" y="184" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1605509955282" />
     <state x="93" y="93" width="1350" height="678" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1605433583221">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="93" y="93" width="1350" height="678" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1536.864@0.0.1536.864" timestamp="1605433583221" />
-    <state x="356" y="185" key="new project wizard" timestamp="1605433433419">
+    <state x="23" y="64" width="1312" height="838" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1605792923821">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="356" y="185" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1605433433419" />
+    <state x="23" y="64" width="1312" height="838" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.864@0.0.1536.864" timestamp="1605792923821" />
+    <state x="250" y="134" width="892" height="603" key="dock-window-1" timestamp="1606141700287">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="250" y="134" width="892" height="603" key="dock-window-1/0.0.1536.864@0.0.1536.864" timestamp="1606141700287" />
+    <state x="356" y="185" key="new project wizard" timestamp="1606138749327">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="356" y="185" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1606138749327" />
+    <state x="454" y="206" key="run.anything.popup" timestamp="1606299828705">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="454" y="206" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1606299828705" />
+    <state x="430" y="182" width="672" height="678" key="search.everywhere.popup" timestamp="1606658344395">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="430" y="182" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1606658344395" />
   </component>
 </project>

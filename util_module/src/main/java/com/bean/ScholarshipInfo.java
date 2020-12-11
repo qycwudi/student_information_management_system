@@ -39,6 +39,8 @@ public class ScholarshipInfo implements Serializable {
 
     private String schStuId;
 
+    private String schInsId;
+    private String schClassId;
     @TableField(fill = FieldFill.INSERT)
     private Date gmtCreate;
 

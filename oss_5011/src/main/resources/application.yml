@@ -1,0 +1,35 @@
+server:
+  port: 5011
+
+aliyun:
+  oss:
+    access-key-id: LTAI4GKkrfaLhFWwqioSkJmo
+    access-key-secret: Y8oWPnTWr9KbJKTalXlrrlyH4lAq5X
+    bucket-domain: http://qyc-oostest.oss-cn-beijing.aliyuncs.com
+    bucket-name: qyc-oostest
+    end-point: http://oss-cn-beijing.aliyuncs.com
+#spring:
+#  cloud:
+#    nacos:
+#      discovery:
+#        server-addr: localhost:8848
+#  application:
+#    name: oss9001-1
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+spring:
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 50MB
+  application:
+    name: oss-5011
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+
+

@@ -30,6 +30,4 @@ public class StudentMessageState implements Serializable {
     private long id;
 
     private String state;
-
-
 }

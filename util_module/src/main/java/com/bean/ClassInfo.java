@@ -36,7 +36,7 @@ public class ClassInfo implements Serializable {
 
     private Integer classStuSum;
 
-    private String classInsId;
+    private Long classInsId;
     @TableField(fill = FieldFill.INSERT)
     private Date gmtCreate;
 

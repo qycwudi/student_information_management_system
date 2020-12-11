@@ -6,7 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="information_management_5002" />
         <module name="scholarship_5001" />
+        <module name="oss_5011" />
         <module name="security_5010" />
         <module name="util_module" />
       </profile>
